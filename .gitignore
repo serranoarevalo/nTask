@@ -2,4 +2,4 @@
 .log
 config.js
 *.sqlite
-/public/apidoc
+public/apidoc
