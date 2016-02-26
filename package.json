@@ -4,8 +4,15 @@
   "description": "Task manager in Node.js with ES2015",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "test": "NODE_ENV=test mocha test/**/*.js"
+    "start": "npm run apidoc && babel-node index.js",
+    "test": "NODE_ENV=test mocha test/**/*.js",
+    "apidoc": "apidoc -i routes/ -o public/apidoc"
+  },
+  "apidoc": {
+    "name": "Node Task API - Documentation",
+    "template": {
+      "forceLanguage": "en"
+    }
   },
   "repository": {
     "type": "git",

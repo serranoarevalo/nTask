@@ -1,5 +1,6 @@
 import express from "express";
 import consign from "consign";
+import cors from "cors";
 
 const app = express();
 
