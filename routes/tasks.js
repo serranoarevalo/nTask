@@ -47,7 +47,7 @@ module.exports = app => {
 		* @apiHeaderExample {json} Header
 		* 		{"Authorization": "JWT xyz.abc.123.hgf"}
 		* @apiParam {String} title Task title
-		* @apiParamExaample {json} Input
+		* @apiParamExample {json} Input
 		*	{"title": "Study"}
 		* @apiSuccess {Number} id Task id
 		* @apiSuccess {String} title Task title
